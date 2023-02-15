@@ -50,6 +50,8 @@ def find_max(stats):
 
 load_dotenv()  # take environment variables from .env.
 ya_token = os.getenv('ya_token')
+ya_password = os.getenv('ya_password')
+email = os.getenv('email')
 link_create_folder = 'https://cloud-api.yandex.net/v1/disk/resources'
 link_list_of_files = 'https://cloud-api.yandex.net/v1/disk/resources/public'
 wrong_link = 'https://cloud-api.yandex.net/v1/disk/resources/public6'

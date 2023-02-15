@@ -1,4 +1,3 @@
-import unittest
 import pytest
 
 from main import find_max, filter_, find_unique, lst_to_dict
